@@ -1,0 +1,81 @@
+@(title: String)(content: Html)
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>@title</title>
+        <meta name="viewport" content="width=devce-width, initial-scale=1">
+        <link rel="stylesheet" media="screen" href="@routes.Assets.at("bootstrap/css/bootstrap.min.css")">
+        <link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.png")">
+        <link rel="stylesheets" media="screen" href="@routes.Assets.at("stylesheets/main.css")">
+    </head>
+    <body>
+        <header class="header-tp">
+            <nav class="navbar navbar-default navbar-static-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <form class="form-inline">
+                            <ul class="nav navbar-nav navbar-right bdr">
+                                <li><a href="@routes.UsuarioController.formularioDeNovoUsuario">Usuários</a></li>
+
+                                <li><a href="@routes.ClienteController.formularioDeNovoCliente">Clientes</a></li>
+
+                                <li><a href="@routes.ProjetoController.formularioDeNovoProjeto">Projetos</a></li>
+
+                                <li><a href="@routes.TarefaController.formularioDeNovaTarefa">Tarefas</a></li>
+
+                                <li><a href="@routes.TipoTarefaController.formularioDeNovoTipoTarefa">Tipos de Tarefa</a></li>
+
+                                <li><a href="@routes.UsuarioController.formularioDeLogin">Login</a></li>
+
+                                <li><a href="#" data-toggle="modal" data-target="#signIn-Modal">Sign in</a></li>
+
+                                <li ><a href="#" data-toggle="modal" data-target="#at-signup">Sign Up</a></li>
+                            </ul>
+                        </form>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </nav>
+        </header>
+
+        @for(key <- Array("danger", "info", "success", "warning")) {
+            @if(flash.containsKey(key)) {
+                <div class="alert alert-@key">
+                    @flash.get(key)
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close"><i class="glyphicon glyphicon-remove"></i> </a>
+                </div>
+            }
+        }
+
+        <main class="container">@content</main>
+    </body>
+
+        <!-- Modal -->
+    <div id="signIn-Modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+                <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Título do modal</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Entre com o conteudo deste modal.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    @javascripts()
+</html>
+

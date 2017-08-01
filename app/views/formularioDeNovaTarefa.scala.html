@@ -1,0 +1,103 @@
+@import java.util
+@(formulario: Form[Tarefa],
+        formProjeto: Form[Projeto],
+        optionsMembros: Map[String, String],
+        optionsResponsaveis: Map[String, String],
+        optionsTipos: Map[String, String],
+        optionsProjetos: Map[String, String],
+        optionsClientes: Map[String, String]
+)
+
+@import b4.vertical.fieldConstructor
+@import helper._;
+
+@main("Cadastro de tarefa") {
+
+    @b4.form(routes.TarefaController.salvaNovaTarefa) {
+
+        <h1>Cadastre uma nova tarefa</h1>
+
+        @b4.text(formulario("titulo"),
+            '_label -> "Título",
+            'placeholder -> "Criação binding do XSD da NF-e 4.0")
+
+        @b4.textarea(formulario("descricao"),
+            '_label -> "Descrição",
+            'placeholder -> "Descreva o que devera ser realizado através desta tarefa."
+        )
+
+
+        <div class="form-group">
+            <label class="control-label" for="projeto_id">Selecione o projeto</label>
+            <div class="input-group">
+
+                @b4.select(
+                    formulario("projeto.id"),
+                    options(optionsProjetos),
+                    '_default -> "Selecione o projeto...",
+                    '_showConstraints -> false
+                )
+
+                <span class="input-group-btn">
+                    <a href="" class="btn btn-primary" data-toggle="modal" data-target="#modalProjeto" value="Cadastrar" for="projeto_id" >
+                        <span class="glyphicon glyphicon-option-horizontal"></span>
+                    </a>
+                </span>
+            </div>
+        </div>
+
+        <br>
+
+        @b4.select(
+            formulario("responsavel.id"),
+            options(optionsResponsaveis),
+            '_label -> "Selecione o responsável",
+            '_default -> "Selecione o responsavel...",
+            '_showConstraints -> false
+        )
+
+        <br>
+
+        @b4.select(
+            formulario("tipo.id"),
+            options(optionsTipos),
+            '_label -> "Selecione o tipo",
+            '_default -> "Selecione o tipo...",
+            '_showConstraints -> false
+        )
+
+        <br>
+
+        @b4.select(
+            formulario("membro.id"),
+            options(optionsMembros),
+            '_label -> "Selecione o membro",
+            '_default -> "Selecione o membro...",
+            '_showConstraints -> false
+        )
+
+        <br>
+
+        @b4.submit('class -> "btn btn-primary") { Cadastrar }
+
+    }
+        <!-- Modal -->
+    <div id="modalProjeto" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+                <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Cadastro de Projeto</h4>
+                </div>
+                <div class="modal-body">
+                     @modalDeNovoProjeto(formProjeto, optionsClientes)
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+} 

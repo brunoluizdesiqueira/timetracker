@@ -1,0 +1,12 @@
+@(formulario: Form[Usuario])
+@import b4.vertical.fieldConstructor;
+@main("Cadastro de usuário!") {
+    @b4.form(routes.UsuarioController.salvaNovoUsuario) {
+        <h1>Cadastre-se!</h1>
+        @b4.text(formulario("nome"), '_label -> "Nome")
+        @b4.email(formulario("email"), '_label -> "Email")
+        @b4.password(formulario("senha"), '_label -> "Senha")
+        @b4.password(formulario("confirmaSenha"), '_label -> "Confirmação de senha")
+        @b4.submit('class -> "btn btn-primary") { Cadastrar }
+    }
+} 

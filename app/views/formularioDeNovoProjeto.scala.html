@@ -1,0 +1,38 @@
+@(formulario: Form[Projeto], optionsClientes: Map[String, String])
+
+    @import b4.vertical.fieldConstructor
+    @import helper._;
+
+    @main("Novo Projeto") {
+
+        <Form id = "form_Projeto" action = "@routes.ProjetoController.salvaNovoProjeto" method = "POST"
+        onsubmit = "submitForm();
+        return false;">
+
+            @b4.text(
+                formulario("nome"),
+                'id -> "novovalor",
+                '_label -> "Nome",
+                'placeholder -> "Emissor de nota fiscal eletrônica..."
+            )
+
+            @b4.textarea(
+                formulario("descricao"),
+                '_label -> "Descrição",
+                'placeholder -> "Criação do aplicativo de emissão de NF-e...",
+                'rows -> 3
+            )
+
+            @b4.select(
+                formulario("cliente.id"),
+                options(optionsClientes),
+                '_label -> "Cliente", '_default -> "Selecione o cliente...",
+                '_showConstraints -> false
+            )
+
+        <br>
+
+            @b4.submit('class -> "btn btn-primary") { Cadastrar }
+
+        </Form>
+    }

@@ -1,0 +1,11 @@
+@(formulario: DynamicForm)
+    @import b4.vertical.fieldConstructor
+    @main("Login") {
+        @b4.form(routes.UsuarioController.fazLogin) {
+            <h1>Login</h1>
+            @b4.email(formulario("email"), '_label -> "Email", 'autocomplete -> false)
+            @b4.password(formulario("senha"), '_label -> "Senha", 'autocomplete -> false)
+            @b4.checkbox(formulario("lembrar"), '_text -> "Lembre-me", 'value -> true)
+            @b4.submit('class -> "btn btn-primary") { Entrar }
+        }
+    }

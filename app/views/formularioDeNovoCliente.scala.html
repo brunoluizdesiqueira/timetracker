@@ -1,0 +1,10 @@
+@(formulario: Form[Cliente])
+@import b4.vertical.fieldConstructor;
+
+@main("Cadastro de cliente!") {
+    @b4.form(routes.ClienteController.salvaNovoCliente) {
+        <h1>Cadastre um novo cliente</h1>
+        @b4.text(formulario("nome"), '_label -> "Nome")
+        @b4.submit('class -> "btn btn-primary") { Cadastrar }
+    }
+} 
