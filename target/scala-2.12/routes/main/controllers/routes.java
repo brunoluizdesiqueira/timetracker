@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/Bruno/projetos/timetracker/conf/routes
-// @DATE:Mon Jul 31 22:31:08 BRT 2017
+// @DATE:Wed Aug 02 20:20:46 BRT 2017
 
 package controllers;
 

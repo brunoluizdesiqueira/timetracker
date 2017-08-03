@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/Bruno/projetos/timetracker/conf/routes
-// @DATE:Mon Jul 31 22:31:08 BRT 2017
+// @DATE:Wed Aug 02 20:20:46 BRT 2017
 
 import play.api.mvc.Call
 
@@ -12,14 +12,14 @@ import _root_.play.libs.F
 // @LINE:5
 package controllers {
 
-  // @LINE:47
+  // @LINE:49
   class ReverseAssets(_prefix: => String) {
     def _defaultPrefix: String = {
       if (_prefix.endsWith("/")) "" else "/"
     }
 
   
-    // @LINE:47
+    // @LINE:49
     def at(file:String): Call = {
       implicit val _rrc = new play.core.routing.ReverseRouteContext(Map(("path", "/public")))
       Call("GET", _prefix + { _defaultPrefix } + "assets/" + implicitly[play.api.mvc.PathBindable[String]].unbind("file", file))
@@ -103,40 +103,46 @@ package controllers {
     }
 
   
-    // @LINE:44
+    // @LINE:46
     def delete(id:Long): Call = {
       
       Call("POST", _prefix + { _defaultPrefix } + "computers/" + implicitly[play.api.mvc.PathBindable[Long]].unbind("id", id) + "/delete")
     }
   
-    // @LINE:36
+    // @LINE:38
     def create(): Call = {
       
       Call("GET", _prefix + { _defaultPrefix } + "computers/new")
     }
   
-    // @LINE:40
+    // @LINE:42
     def edit(id:Long): Call = {
       
       Call("GET", _prefix + { _defaultPrefix } + "computers/" + implicitly[play.api.mvc.PathBindable[Long]].unbind("id", id))
     }
   
-    // @LINE:41
+    // @LINE:43
     def update(id:Long): Call = {
       
       Call("POST", _prefix + { _defaultPrefix } + "computers/" + implicitly[play.api.mvc.PathBindable[Long]].unbind("id", id))
     }
   
-    // @LINE:33
+    // @LINE:35
     def list(p:Int = 0, s:String = "name", o:String = "asc", f:String = ""): Call = {
       
       Call("GET", _prefix + { _defaultPrefix } + "computers" + play.core.routing.queryString(List(if(p == 0) None else Some(implicitly[play.api.mvc.QueryStringBindable[Int]].unbind("p", p)), if(s == "name") None else Some(implicitly[play.api.mvc.QueryStringBindable[String]].unbind("s", s)), if(o == "asc") None else Some(implicitly[play.api.mvc.QueryStringBindable[String]].unbind("o", o)), if(f == "") None else Some(implicitly[play.api.mvc.QueryStringBindable[String]].unbind("f", f)))))
     }
   
-    // @LINE:37
+    // @LINE:39
     def save(): Call = {
       
       Call("POST", _prefix + { _defaultPrefix } + "computers")
+    }
+  
+    // @LINE:32
+    def home(): Call = {
+      
+      Call("GET", _prefix + { _defaultPrefix } + "home")
     }
   
     // @LINE:30

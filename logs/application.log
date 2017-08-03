@@ -1,64 +1,97 @@
-2017-07-31 22:31:54,853 [INFO] from application in scala-execution-context-global-71 - Creating Pool for datasource 'default'
-2017-07-31 22:31:55,353 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-71 - Database [default] connected at jdbc:mysql://localhost/teste
-2017-07-31 22:31:58,175 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-71 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
-2017-07-31 22:31:58,626 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-71 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2017-08-02 21:24:09,501 [INFO] from application in scala-execution-context-global-61 - Creating Pool for datasource 'default'
+2017-08-02 21:24:09,901 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-61 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-02 21:24:11,788 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-61 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-02 21:24:12,029 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-61 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
 
-2017-07-31 22:31:58,645 [INFO] from play.api.Play in scala-execution-context-global-71 - Application started (Dev)
-2017-07-31 22:31:59,506 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in play-dev-mode-akka.actor.default-dispatcher-10 - decode: could not decode JWT: JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
-io.jsonwebtoken.SignatureException: JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
-	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:354)
-	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481)
-	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541)
-	at play.api.mvc.JWTCookieDataCodec$JWTFormatter.parse(Cookie.scala:652)
-	at play.api.mvc.JWTCookieDataCodec.decode(Cookie.scala:577)
-	at play.api.mvc.JWTCookieDataCodec.decode$(Cookie.scala:569)
-	at play.api.mvc.DefaultJWTCookieDataCodec.decode(Cookie.scala:742)
-	at play.api.mvc.FallbackCookieDataCodec.decode(Cookie.scala:728)
-	at play.api.mvc.FallbackCookieDataCodec.decode$(Cookie.scala:719)
-	at play.api.mvc.DefaultSessionCookieBaker.decode(Session.scala:95)
-	at play.api.mvc.CookieBaker.decodeFromCookie(Cookie.scala:430)
-	at play.api.mvc.CookieBaker.decodeFromCookie$(Cookie.scala:427)
-	at play.api.mvc.DefaultSessionCookieBaker.decodeFromCookie(Session.scala:95)
-	at play.api.mvc.request.DefaultRequestFactory$$anon$2.create(RequestFactory.scala:115)
-	at play.api.mvc.request.DefaultRequestFactory$$anon$2.create(RequestFactory.scala:113)
-	at play.api.mvc.request.LazyCell.value(Cell.scala:66)
-	at play.api.mvc.RequestHeader.session(RequestHeader.scala:227)
-	at play.api.mvc.RequestHeader.session$(RequestHeader.scala:227)
-	at play.api.mvc.RequestImpl.session(Request.scala:75)
-	at play.core.j.JavaHelpers.createJavaContext(JavaHelpers.scala:182)
-	at play.core.j.JavaHelpers.createJavaContext$(JavaHelpers.scala:176)
-	at play.core.j.JavaAction.createJavaContext(JavaAction.scala:59)
-	at play.core.j.JavaAction.apply(JavaAction.scala:70)
-	at play.api.mvc.Action.$anonfun$apply$2(Action.scala:96)
-	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$4(Accumulator.scala:174)
-	at scala.util.Try$.apply(Try.scala:209)
-	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$3(Accumulator.scala:174)
-	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
-	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
-	at play.api.libs.streams.StrictAccumulator.run(Accumulator.scala:207)
-	at play.core.server.AkkaHttpServer.executeAction(AkkaHttpServer.scala:276)
-	at play.core.server.AkkaHttpServer.executeHandler(AkkaHttpServer.scala:233)
-	at play.core.server.AkkaHttpServer.handleRequest(AkkaHttpServer.scala:179)
-	at play.core.server.AkkaHttpServer.$anonfun$createServerBinding$3(AkkaHttpServer.scala:95)
-	at akka.stream.impl.fusing.MapAsync$$anon$23.onPush(Ops.scala:1172)
-	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:499)
-	at akka.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:462)
-	at akka.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:368)
-	at akka.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:571)
-	at akka.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:457)
-	at akka.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:546)
-	at akka.stream.impl.fusing.ActorGraphInterpreter.akka$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:725)
-	at akka.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:740)
-	at akka.actor.Actor.aroundReceive(Actor.scala:513)
-	at akka.actor.Actor.aroundReceive$(Actor.scala:511)
-	at akka.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:650)
-	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:527)
-	at akka.actor.ActorCell.invoke(ActorCell.scala:496)
-	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
-	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
-	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
-	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
-	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
-	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
-	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+2017-08-02 21:24:12,034 [INFO] from play.api.Play in scala-execution-context-global-61 - Application started (Dev)
+2017-08-02 21:25:31,187 [INFO] from application in scala-execution-context-global-100 - Shutting down connection pool.
+2017-08-02 21:25:31,517 [INFO] from application in scala-execution-context-global-100 - Creating Pool for datasource 'default'
+2017-08-02 21:25:31,524 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-100 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-02 21:25:31,878 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-100 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-02 21:25:31,967 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-100 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-02 21:25:31,967 [INFO] from play.api.Play in scala-execution-context-global-100 - Application started (Dev)
+2017-08-02 21:27:23,036 [INFO] from application in scala-execution-context-global-147 - Shutting down connection pool.
+2017-08-02 21:27:23,261 [INFO] from application in scala-execution-context-global-147 - Creating Pool for datasource 'default'
+2017-08-02 21:27:23,271 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-147 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-02 21:27:23,619 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-147 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-02 21:27:23,726 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-147 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-02 21:27:23,728 [INFO] from play.api.Play in scala-execution-context-global-147 - Application started (Dev)
+2017-08-02 21:32:42,040 [INFO] from application in scala-execution-context-global-216 - Shutting down connection pool.
+2017-08-02 21:32:42,217 [INFO] from application in scala-execution-context-global-216 - Creating Pool for datasource 'default'
+2017-08-02 21:32:42,223 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-216 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-02 21:32:42,631 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-216 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-02 21:32:42,699 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-216 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-02 21:32:42,700 [INFO] from play.api.Play in scala-execution-context-global-216 - Application started (Dev)
+2017-08-02 21:45:32,192 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=49s772ms).
+2017-08-02 21:47:16,194 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m13s994ms).
+2017-08-02 21:48:55,190 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s989ms).
+2017-08-02 21:50:33,191 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s996ms).
+2017-08-02 21:52:12,191 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s992ms).
+2017-08-02 21:53:51,195 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s999ms).
+2017-08-02 21:55:29,192 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s991ms).
+2017-08-02 21:57:08,193 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s992ms).
+2017-08-02 21:58:46,190 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s989ms).
+2017-08-02 22:00:26,191 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m9s997ms).
+2017-08-02 22:02:04,193 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s999ms).
+2017-08-02 22:03:51,192 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m16s992ms).
+2017-08-02 22:05:30,193 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s995ms).
+2017-08-02 22:07:09,195 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s992ms).
+2017-08-02 22:08:47,191 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s986ms).
+2017-08-02 22:10:26,190 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s990ms).
+2017-08-02 22:12:04,191 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s995ms).
+2017-08-02 22:13:43,193 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s993ms).
+2017-08-02 22:15:22,190 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s993ms).
+2017-08-02 22:17:08,193 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m15s998ms).
+2017-08-02 22:18:47,191 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s988ms).
+2017-08-02 22:20:32,191 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m14s992ms).
+2017-08-02 22:22:11,193 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s993ms).
+2017-08-02 22:23:50,194 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s994ms).
+2017-08-02 22:25:28,190 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s993ms).
+2017-08-02 22:27:07,191 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s997ms).
+2017-08-02 22:28:45,193 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s994ms).
+2017-08-02 22:30:24,196 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s997ms).
+2017-08-02 22:32:02,194 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s991ms).
+2017-08-02 22:33:41,193 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s992ms).
+2017-08-02 22:35:20,194 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s996ms).
+2017-08-02 22:36:58,188 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s985ms).
+2017-08-02 22:38:36,196 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s1ms).
+2017-08-02 22:40:15,190 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s990ms).
+2017-08-02 22:41:53,190 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s992ms).
+2017-08-02 22:43:31,191 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s992ms).
+2017-08-02 22:45:10,193 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s997ms).
+2017-08-02 22:46:48,191 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s991ms).
+2017-08-02 22:48:26,192 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s993ms).
+2017-08-02 22:50:05,195 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m9s).
+2017-08-02 22:51:43,197 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s996ms).
+2017-08-02 22:53:22,191 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s989ms).
+2017-08-02 22:55:00,190 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s993ms).
+2017-08-02 22:56:38,195 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s2ms).
+2017-08-02 22:58:16,195 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s996ms).
+2017-08-02 22:59:55,191 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s992ms).
+2017-08-02 23:01:33,193 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s998ms).
+2017-08-02 23:03:12,192 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s991ms).
+2017-08-02 23:04:50,190 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s993ms).
+2017-08-02 23:06:29,195 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s997ms).
+2017-08-02 23:08:07,191 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s992ms).
+2017-08-02 23:09:46,192 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s997ms).
+2017-08-02 23:11:24,191 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s994ms).
+2017-08-02 23:13:03,195 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s997ms).
+2017-08-02 23:14:41,191 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s987ms).
+2017-08-02 23:16:20,192 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s992ms).
+2017-08-02 23:17:52,193 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m1s995ms).
+2017-08-02 23:24:21,320 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Retrograde clock change detected (housekeeper delta=29s97ms), soft-evicting connections from pool.
+2017-08-02 23:24:50,921 [INFO] from application in scala-execution-context-global-276 - Shutting down connection pool.
+2017-08-02 23:24:51,117 [INFO] from application in scala-execution-context-global-276 - Creating Pool for datasource 'default'
+2017-08-02 23:24:51,127 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-276 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-02 23:24:51,412 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-276 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-02 23:24:51,485 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-276 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-02 23:24:51,486 [INFO] from play.api.Play in scala-execution-context-global-276 - Application started (Dev)

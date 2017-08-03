@@ -1,0 +1,95 @@
+@(formulario: DynamicForm)
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Material Design - Mediahawkz.com Login Form</title>
+    <meta name="author" content="Ravikumar Chauhan">
+    <title>Login Form | Mediahawkz</title>
+
+      <!-- Meta and Opengraph tags -->
+    <meta name="description" content="Material Design Login Form for Mediahawkz.com">
+    <meta name="keywords" content="html, html5, css, css3, material, form, login, google material design, material design, mediahawkz, mediahawkz.com">
+
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto:300'>
+
+    <link rel="stylesheet" media="screen" href="@routes.Assets.at("css/style.css")">
+    <link rel="stylesheet" media="screen" href="@routes.Assets.at("scss/style.scss")">
+    <link rel="stylesheets" media="screen" href="@routes.Assets.at("stylesheets/main.css")">
+
+  </head>
+
+  <body>
+      <!-- Main content -->
+    <main role="main">
+      <div class="mediahawkz-login">
+        <div class="div-left"></div>
+        <div class="div-right">
+          <div class="rkmd-form login">
+            <h2 class="form-title">Login</h2>
+            <form id="login" action="@routes.UsuarioController.fazLogin" method="POST">
+
+              <div class="form-field">
+                <label class="field-label" for="emailid">Email ID</label>
+                <input id="email" type="text" name="email" class="field-input">
+                <i class="material-icons md-18">error_outline</i>
+              </div>
+              <div class="form-field">
+                <label class="field-label" for="pass">Senha</label>
+                <input id="senha" type="password" name="senha" class="field-input">
+                <i class="material-icons md-18">error_outline</i>
+              </div>
+              <div class="form-row">
+                <div class="msg">
+                    <!-- <span class="error">We can't find that email address. Have you registered?.</span> -->
+                </div>
+              </div>
+              <div class="form-row clearfix">
+                <div class="remember float-left">
+                  <input type="checkbox" name="rem" id="rem">
+                  <label for="rem">Stay Signed in</label>
+                </div>
+                <button id="submit" class="rkmd-btn btn-lightBlue ripple-effect float-right">LOGIN</button>
+              </div>
+              <div class="form-row clearfix">
+                <a href="#" data-tab="reset" class="link float-right toggle" onclick="return false;">Forgot your password?</a>
+              </div>
+            </form>
+          </div>
+
+          <div class="rkmd-form reset" style="display: none;">
+            <h2 class="form-title">Reset password</h2>
+            <form id="reset" action="" method="POST" onsubmit="return false;">
+              <div class="form-row">
+                <span class="default">You will receive a link to create a new password via email.</span>
+              </div>
+              <div class="form-field">
+                <label class="field-label" for="emailid">Email ID</label>
+                <input id="emailid" type="text" name="emailid" class="field-input">
+                <i class="material-icons md-18">error_outline</i>
+              </div>
+              <div class="form-row">
+                <div class="msg">
+                    <!-- <span class="error"></span> -->
+                </div>
+              </div>
+              <div class="form-row clearfix">
+                <button id="reset" class="rkmd-btn btn-lightBlue ripple-effect float-right">RESET PASSWORD</button>
+              </div>
+              <div class="form-row clearfix">
+                <a href="#" data-tab="login" class="link float-right toggle" onclick="return false;">Login</a>
+              </div>
+            </form>
+          </div>
+          <div class="copyright">
+            <p>&copy; 2017 <a href="https://plus.google.com/u/0/106561665477374262958" class="link">Arieuqis.com</a> Made in Brasil, Designed by <a href="https://plus.google.com/u/0/106561665477374262958" target="_blank">Bruno Siqueira</a></p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script type="text/javascript" src="@routes.Assets.at("bootstrap/js/jquery.min.js")"></script>
+    <script type="text/javascript" src="@routes.Assets.at("javascripts/index.js")"></script>
+
+  </body>
+</html>

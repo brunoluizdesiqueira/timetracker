@@ -26,11 +26,13 @@ public class HomeController extends Controller {
     private final HttpExecutionContext httpExecutionContext;
     /**
      * This result directly redirect to application home.
-     */
+
     private Result GO_HOME = Results.redirect(
             routes.HomeController.list(0, "name", "asc", "")
     );
+   */
 
+    private Result GO_HOME = Results.redirect(routes.HomeController.home());
     @Inject
     public HomeController(FormFactory formFactory,
                           ComputerRepository computerRepository,
@@ -47,6 +49,10 @@ public class HomeController extends Controller {
      */
     public Result index() {
         return GO_HOME;
+    }
+
+    public Result home() {
+        return ok(views.html.home.render(formFactory.form()));
     }
 
     /**
