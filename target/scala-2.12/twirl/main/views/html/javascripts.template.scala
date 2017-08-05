@@ -34,6 +34,7 @@ Seq[Any](format.raw/*1.1*/("""<script type="text/javascript" src=""""),_display_
 <script type="text/javascript" src=""""),_display_(/*2.38*/routes/*2.44*/.Assets.at("bootstrap/js/bootstrap.min.js")),format.raw/*2.87*/(""""></script>
 <script type="text/javascript" src=""""),_display_(/*3.38*/routes/*3.44*/.Assets.at("javascripts/submitForm.js")),format.raw/*3.83*/(""""></script>
 <script type="text/javascript" src=""""),_display_(/*4.38*/routes/*4.44*/.Assets.at("javascripts/hello.js")),format.raw/*4.78*/(""""></script>
+<script type="text/javascript" src=""""),_display_(/*5.38*/routes/*5.44*/.Assets.at("javascripts/index.js")),format.raw/*5.78*/(""""></script>
 """))
       }
     }
@@ -50,11 +51,11 @@ Seq[Any](format.raw/*1.1*/("""<script type="text/javascript" src=""""),_display_
 
               /*
                   -- GENERATED --
-                  DATE: Mon Jul 31 22:31:08 BRT 2017
+                  DATE: Fri Aug 04 19:35:35 BRT 2017
                   SOURCE: /Users/Bruno/projetos/timetracker/app/views/javascripts.scala.html
-                  HASH: b13dc2b55b092319557e7849ccc57d626b17fce3
-                  MATRIX: 1036->0|1099->37|1113->43|1173->83|1248->132|1262->138|1325->181|1400->230|1414->236|1473->275|1548->324|1562->330|1616->364
-                  LINES: 33->1|33->1|33->1|33->1|34->2|34->2|34->2|35->3|35->3|35->3|36->4|36->4|36->4
+                  HASH: 28adab7641e6a698a45070667c3709ce48ca4c4d
+                  MATRIX: 1036->0|1099->37|1113->43|1173->83|1248->132|1262->138|1325->181|1400->230|1414->236|1473->275|1548->324|1562->330|1616->364|1691->413|1705->419|1759->453
+                  LINES: 33->1|33->1|33->1|33->1|34->2|34->2|34->2|35->3|35->3|35->3|36->4|36->4|36->4|37->5|37->5|37->5
                   -- GENERATED --
               */
           

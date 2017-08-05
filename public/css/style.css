@@ -55,8 +55,8 @@ a:hover {
     bottom: 0px;
     width: 50%;
     height: 100%;
-    background-color: #2d2b2c;
-    background-image: url("http://mediahawkz.com/admin/assets/imgs/mediahawkz-black.png");
+    background-color: #e3e1e2;
+    background-image: url("tempo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 25%;
@@ -69,6 +69,16 @@ a:hover {
     bottom: 0px;
     width: 50%;
     height: 100%;
+}
+.mediahawkz-login .div-center {
+    overflow: auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: auto;
+    height: auto;
 }
 .mediahawkz-login .copyright {
     margin-top: 10%;

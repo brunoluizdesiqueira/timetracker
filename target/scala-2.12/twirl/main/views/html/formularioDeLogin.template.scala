@@ -33,13 +33,40 @@ object formularioDeLogin extends _root_.play.twirl.api.BaseScalaTemplate[play.tw
 
 Seq[Any](format.raw/*1.27*/("""
     """),format.raw/*3.1*/("""    """),_display_(/*3.6*/main("Login")/*3.19*/ {_display_(Seq[Any](format.raw/*3.21*/("""
-        """),_display_(/*4.10*/b4/*4.12*/.form(routes.UsuarioController.fazLogin)/*4.52*/ {_display_(Seq[Any](format.raw/*4.54*/("""
-            """),format.raw/*5.13*/("""<h1>Login</h1>
-            """),_display_(/*6.14*/b4/*6.16*/.email(formulario("email"), '_label -> "Email", 'autocomplete -> false)),format.raw/*6.87*/("""
-            """),_display_(/*7.14*/b4/*7.16*/.password(formulario("senha"), '_label -> "Senha", 'autocomplete -> false)),format.raw/*7.90*/("""
-            """),_display_(/*8.14*/b4/*8.16*/.checkbox(formulario("lembrar"), '_text -> "Lembre-me", 'value -> true)),format.raw/*8.87*/("""
-            """),_display_(/*9.14*/b4/*9.16*/.submit('class -> "btn btn-primary")/*9.52*/ {_display_(Seq[Any](format.raw/*9.54*/(""" """),format.raw/*9.55*/("""Entrar """)))}),format.raw/*9.63*/("""
-        """)))}),format.raw/*10.10*/("""
+    """),format.raw/*4.5*/("""<main role="main">
+        <div class="mediahawkz-login">
+            <div class="div-center">
+                <div class="rkmd-form login">
+                    """),_display_(/*8.22*/b4/*8.24*/.form(routes.UsuarioController.fazLogin)/*8.64*/ {_display_(Seq[Any](format.raw/*8.66*/("""
+
+                        """),format.raw/*10.25*/("""<h2 class="form-title">Login</h2>
+
+                        <div class="form-field">
+                            <label class="field-label" for="emailid">E-mail</label>
+                            <input id="email" type="text" name="email" class="field-input" autocomplete="false">
+                            <i class="material-icons md-18">error_outline</i>
+                        </div>
+
+                        <div class="form-field">
+                            <label class="field-label" for="emailid">Digite sua senha</label>
+                            <input id="senha" type="password" name="senha" class="field-input" autocomplete="false">
+                            <i class="material-icons md-18">error_outline</i>
+                        </div>
+
+                        <div class="form-row clearfix">
+                            <div class="remember float-left">
+                                <input type="checkbox" name="lembrar" id="lembrar" value="true">
+                                <label for="lembrar">Lembrar senha?</label>
+                            </div>
+                            <button id="submit" class="rkmd-btn btn-lightBlue ripple-effect float-right">Entrar</button>
+                        </div>
+
+                      """),format.raw/*37.25*/("""
+                    """)))}),format.raw/*38.22*/("""
+                """),format.raw/*39.17*/("""</div>
+            </div>
+        </div>
+    </main>
     """)))}))
       }
     }
@@ -56,11 +83,11 @@ Seq[Any](format.raw/*1.27*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Mon Jul 31 22:31:08 BRT 2017
+                  DATE: Fri Aug 04 20:52:30 BRT 2017
                   SOURCE: /Users/Bruno/projetos/timetracker/app/views/formularioDeLogin.scala.html
-                  HASH: 7b4cf08bc3355a09701404e86ea905b1442d934f
-                  MATRIX: 965->1|1063->32|1128->26|1159->68|1189->73|1210->86|1249->88|1285->98|1295->100|1343->140|1382->142|1422->155|1476->183|1486->185|1577->256|1617->270|1627->272|1721->346|1761->360|1771->362|1862->433|1902->447|1912->449|1956->485|1995->487|2023->488|2061->496|2102->506
-                  LINES: 28->1|31->2|34->1|35->3|35->3|35->3|35->3|36->4|36->4|36->4|36->4|37->5|38->6|38->6|38->6|39->7|39->7|39->7|40->8|40->8|40->8|41->9|41->9|41->9|41->9|41->9|41->9|42->10
+                  HASH: f573b7376a3361d0a0a9eb7165ad3485eca22618
+                  MATRIX: 965->1|1063->32|1128->26|1159->68|1189->73|1210->86|1249->88|1280->93|1468->255|1478->257|1526->297|1565->299|1619->325|2909->2012|2962->2034|3007->2051
+                  LINES: 28->1|31->2|34->1|35->3|35->3|35->3|35->3|36->4|40->8|40->8|40->8|40->8|42->10|64->37|65->38|66->39
                   -- GENERATED --
               */
           

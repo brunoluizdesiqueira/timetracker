@@ -8,6 +8,13 @@
         <link rel="stylesheet" media="screen" href="@routes.Assets.at("bootstrap/css/bootstrap.min.css")">
         <link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.png")">
         <link rel="stylesheets" media="screen" href="@routes.Assets.at("stylesheets/main.css")">
+
+        <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+        <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto:300'>
+
+        <link rel="stylesheet" media="screen" href="@routes.Assets.at("css/style.css")">
+        <link rel="stylesheet" media="screen" href="@routes.Assets.at("scss/style.scss")">
+
     </head>
     <body>
         <header class="header-tp">
@@ -34,7 +41,7 @@
 
                                 <li><a href="@routes.TipoTarefaController.formularioDeNovoTipoTarefa">Tipos de Tarefa</a></li>
 
-                                <li><a href="@routes.UsuarioController.formularioDeLogin">Login</a></li>
+                                <li><a href="@routes.HomeController.home()">Login</a></li>
 
                                 <li><a href="#" data-toggle="modal" data-target="#signIn-Modal">Sign in</a></li>
 

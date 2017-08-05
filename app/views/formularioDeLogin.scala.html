@@ -1,11 +1,43 @@
 @(formulario: DynamicForm)
     @import b4.vertical.fieldConstructor
     @main("Login") {
-        @b4.form(routes.UsuarioController.fazLogin) {
-            <h1>Login</h1>
-            @b4.email(formulario("email"), '_label -> "Email", 'autocomplete -> false)
-            @b4.password(formulario("senha"), '_label -> "Senha", 'autocomplete -> false)
-            @b4.checkbox(formulario("lembrar"), '_text -> "Lembre-me", 'value -> true)
-            @b4.submit('class -> "btn btn-primary") { Entrar }
-        }
+    <main role="main">
+        <div class="mediahawkz-login">
+            <div class="div-center">
+                <div class="rkmd-form login">
+                    @b4.form(routes.UsuarioController.fazLogin) {
+
+                        <h2 class="form-title">Login</h2>
+
+                        <div class="form-field">
+                            <label class="field-label" for="emailid">E-mail</label>
+                            <input id="email" type="text" name="email" class="field-input" autocomplete="false">
+                            <i class="material-icons md-18">error_outline</i>
+                        </div>
+
+                        <div class="form-field">
+                            <label class="field-label" for="emailid">Digite sua senha</label>
+                            <input id="senha" type="password" name="senha" class="field-input" autocomplete="false">
+                            <i class="material-icons md-18">error_outline</i>
+                        </div>
+
+                        <div class="form-row clearfix">
+                            <div class="remember float-left">
+                                <input type="checkbox" name="lembrar" id="lembrar" value="true">
+                                <label for="lembrar">Lembrar senha?</label>
+                            </div>
+                            <button id="submit" class="rkmd-btn btn-lightBlue ripple-effect float-right">Entrar</button>
+                        </div>
+
+                      @*
+                        @b4.email(formulario("email"),'class-> "field-input", '_label -> "Email", 'autocomplete -> false)
+                        @b4.password(formulario("senha"), '_label -> "Senha", 'autocomplete -> false)
+                        @b4.checkbox(formulario("lembrar"), '_text -> "Lembre-me", 'value -> true)
+                        @b4.submit('class -> "btn btn-primary") { Entrar }
+                      *@
+                    }
+                </div>
+            </div>
+        </div>
+    </main>
     }

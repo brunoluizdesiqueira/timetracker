@@ -1,97 +1,343 @@
-2017-08-02 21:24:09,501 [INFO] from application in scala-execution-context-global-61 - Creating Pool for datasource 'default'
-2017-08-02 21:24:09,901 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-61 - Database [default] connected at jdbc:mysql://localhost/teste
-2017-08-02 21:24:11,788 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-61 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
-2017-08-02 21:24:12,029 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-61 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2017-08-04 19:05:02,417 [INFO] from application in scala-execution-context-global-72 - Creating Pool for datasource 'default'
+2017-08-04 19:05:03,388 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-72 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 19:05:12,086 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-72 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 19:05:12,444 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-72 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
 
-2017-08-02 21:24:12,034 [INFO] from play.api.Play in scala-execution-context-global-61 - Application started (Dev)
-2017-08-02 21:25:31,187 [INFO] from application in scala-execution-context-global-100 - Shutting down connection pool.
-2017-08-02 21:25:31,517 [INFO] from application in scala-execution-context-global-100 - Creating Pool for datasource 'default'
-2017-08-02 21:25:31,524 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-100 - Database [default] connected at jdbc:mysql://localhost/teste
-2017-08-02 21:25:31,878 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-100 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
-2017-08-02 21:25:31,967 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-100 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2017-08-04 19:05:12,455 [INFO] from play.api.Play in scala-execution-context-global-72 - Application started (Dev)
+2017-08-04 19:14:48,645 [INFO] from application in scala-execution-context-global-128 - Shutting down connection pool.
+2017-08-04 19:14:48,896 [INFO] from application in scala-execution-context-global-128 - Creating Pool for datasource 'default'
+2017-08-04 19:14:48,942 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-128 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 19:14:49,275 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-128 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 19:14:49,359 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-128 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
 
-2017-08-02 21:25:31,967 [INFO] from play.api.Play in scala-execution-context-global-100 - Application started (Dev)
-2017-08-02 21:27:23,036 [INFO] from application in scala-execution-context-global-147 - Shutting down connection pool.
-2017-08-02 21:27:23,261 [INFO] from application in scala-execution-context-global-147 - Creating Pool for datasource 'default'
-2017-08-02 21:27:23,271 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-147 - Database [default] connected at jdbc:mysql://localhost/teste
-2017-08-02 21:27:23,619 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-147 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
-2017-08-02 21:27:23,726 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-147 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2017-08-04 19:14:49,361 [INFO] from play.api.Play in scala-execution-context-global-128 - Application started (Dev)
+2017-08-04 19:17:32,354 [INFO] from application in scala-execution-context-global-183 - Shutting down connection pool.
+2017-08-04 19:17:32,549 [INFO] from application in scala-execution-context-global-183 - Creating Pool for datasource 'default'
+2017-08-04 19:17:32,557 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-183 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 19:17:32,862 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-183 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 19:17:32,933 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-183 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
 
-2017-08-02 21:27:23,728 [INFO] from play.api.Play in scala-execution-context-global-147 - Application started (Dev)
-2017-08-02 21:32:42,040 [INFO] from application in scala-execution-context-global-216 - Shutting down connection pool.
-2017-08-02 21:32:42,217 [INFO] from application in scala-execution-context-global-216 - Creating Pool for datasource 'default'
-2017-08-02 21:32:42,223 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-216 - Database [default] connected at jdbc:mysql://localhost/teste
-2017-08-02 21:32:42,631 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-216 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
-2017-08-02 21:32:42,699 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-216 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2017-08-04 19:17:32,934 [INFO] from play.api.Play in scala-execution-context-global-183 - Application started (Dev)
+2017-08-04 19:20:14,116 [INFO] from application in scala-execution-context-global-224 - Shutting down connection pool.
+2017-08-04 19:20:14,251 [INFO] from application in scala-execution-context-global-224 - Creating Pool for datasource 'default'
+2017-08-04 19:20:14,257 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-224 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 19:20:14,576 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-224 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 19:20:14,652 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-224 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
 
-2017-08-02 21:32:42,700 [INFO] from play.api.Play in scala-execution-context-global-216 - Application started (Dev)
-2017-08-02 21:45:32,192 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=49s772ms).
-2017-08-02 21:47:16,194 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m13s994ms).
-2017-08-02 21:48:55,190 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s989ms).
-2017-08-02 21:50:33,191 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s996ms).
-2017-08-02 21:52:12,191 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s992ms).
-2017-08-02 21:53:51,195 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s999ms).
-2017-08-02 21:55:29,192 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s991ms).
-2017-08-02 21:57:08,193 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s992ms).
-2017-08-02 21:58:46,190 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s989ms).
-2017-08-02 22:00:26,191 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m9s997ms).
-2017-08-02 22:02:04,193 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s999ms).
-2017-08-02 22:03:51,192 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m16s992ms).
-2017-08-02 22:05:30,193 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s995ms).
-2017-08-02 22:07:09,195 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s992ms).
-2017-08-02 22:08:47,191 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s986ms).
-2017-08-02 22:10:26,190 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s990ms).
-2017-08-02 22:12:04,191 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s995ms).
-2017-08-02 22:13:43,193 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s993ms).
-2017-08-02 22:15:22,190 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s993ms).
-2017-08-02 22:17:08,193 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m15s998ms).
-2017-08-02 22:18:47,191 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s988ms).
-2017-08-02 22:20:32,191 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m14s992ms).
-2017-08-02 22:22:11,193 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s993ms).
-2017-08-02 22:23:50,194 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s994ms).
-2017-08-02 22:25:28,190 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s993ms).
-2017-08-02 22:27:07,191 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s997ms).
-2017-08-02 22:28:45,193 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s994ms).
-2017-08-02 22:30:24,196 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s997ms).
-2017-08-02 22:32:02,194 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s991ms).
-2017-08-02 22:33:41,193 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s992ms).
-2017-08-02 22:35:20,194 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s996ms).
-2017-08-02 22:36:58,188 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s985ms).
-2017-08-02 22:38:36,196 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s1ms).
-2017-08-02 22:40:15,190 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s990ms).
-2017-08-02 22:41:53,190 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s992ms).
-2017-08-02 22:43:31,191 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s992ms).
-2017-08-02 22:45:10,193 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s997ms).
-2017-08-02 22:46:48,191 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s991ms).
-2017-08-02 22:48:26,192 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s993ms).
-2017-08-02 22:50:05,195 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m9s).
-2017-08-02 22:51:43,197 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s996ms).
-2017-08-02 22:53:22,191 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s989ms).
-2017-08-02 22:55:00,190 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s993ms).
-2017-08-02 22:56:38,195 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s2ms).
-2017-08-02 22:58:16,195 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s996ms).
-2017-08-02 22:59:55,191 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s992ms).
-2017-08-02 23:01:33,193 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s998ms).
-2017-08-02 23:03:12,192 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s991ms).
-2017-08-02 23:04:50,190 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s993ms).
-2017-08-02 23:06:29,195 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s997ms).
-2017-08-02 23:08:07,191 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s992ms).
-2017-08-02 23:09:46,192 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s997ms).
-2017-08-02 23:11:24,191 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s994ms).
-2017-08-02 23:13:03,195 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s997ms).
-2017-08-02 23:14:41,191 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m7s987ms).
-2017-08-02 23:16:20,192 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m8s992ms).
-2017-08-02 23:17:52,193 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m1s995ms).
-2017-08-02 23:24:21,320 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-4 housekeeper - HikariPool-4 - Retrograde clock change detected (housekeeper delta=29s97ms), soft-evicting connections from pool.
-2017-08-02 23:24:50,921 [INFO] from application in scala-execution-context-global-276 - Shutting down connection pool.
-2017-08-02 23:24:51,117 [INFO] from application in scala-execution-context-global-276 - Creating Pool for datasource 'default'
-2017-08-02 23:24:51,127 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-276 - Database [default] connected at jdbc:mysql://localhost/teste
-2017-08-02 23:24:51,412 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-276 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
-2017-08-02 23:24:51,485 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-276 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2017-08-04 19:20:14,655 [INFO] from play.api.Play in scala-execution-context-global-224 - Application started (Dev)
+2017-08-04 19:24:07,906 [INFO] from application in scala-execution-context-global-266 - Shutting down connection pool.
+2017-08-04 19:24:08,075 [INFO] from application in scala-execution-context-global-266 - Creating Pool for datasource 'default'
+2017-08-04 19:24:08,086 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-266 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 19:24:08,447 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-266 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 19:24:08,527 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-266 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
 
-2017-08-02 23:24:51,486 [INFO] from play.api.Play in scala-execution-context-global-276 - Application started (Dev)
+2017-08-04 19:24:08,529 [INFO] from play.api.Play in scala-execution-context-global-266 - Application started (Dev)
+2017-08-04 19:26:31,517 [INFO] from application in scala-execution-context-global-307 - Shutting down connection pool.
+2017-08-04 19:26:31,658 [INFO] from application in scala-execution-context-global-307 - Creating Pool for datasource 'default'
+2017-08-04 19:26:31,665 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-307 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 19:26:31,881 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-307 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 19:26:31,939 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-307 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-04 19:26:31,941 [INFO] from play.api.Play in scala-execution-context-global-307 - Application started (Dev)
+2017-08-04 19:35:40,223 [INFO] from application in scala-execution-context-global-366 - Shutting down connection pool.
+2017-08-04 19:35:40,378 [INFO] from application in scala-execution-context-global-366 - Creating Pool for datasource 'default'
+2017-08-04 19:35:40,386 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-366 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 19:35:40,638 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-366 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 19:35:40,706 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-366 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-04 19:35:40,707 [INFO] from play.api.Play in scala-execution-context-global-366 - Application started (Dev)
+2017-08-04 19:36:47,275 [INFO] from application in scala-execution-context-global-407 - Shutting down connection pool.
+2017-08-04 19:36:47,406 [INFO] from application in scala-execution-context-global-407 - Creating Pool for datasource 'default'
+2017-08-04 19:36:47,411 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-407 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 19:36:47,597 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-407 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 19:36:47,650 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-407 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-04 19:36:47,651 [INFO] from play.api.Play in scala-execution-context-global-407 - Application started (Dev)
+2017-08-04 19:38:00,906 [INFO] from application in scala-execution-context-global-444 - Shutting down connection pool.
+2017-08-04 19:38:01,019 [INFO] from application in scala-execution-context-global-444 - Creating Pool for datasource 'default'
+2017-08-04 19:38:01,024 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-444 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 19:38:01,201 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-444 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 19:38:01,248 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-444 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-04 19:38:01,249 [INFO] from play.api.Play in scala-execution-context-global-444 - Application started (Dev)
+2017-08-04 19:38:23,147 [INFO] from application in scala-execution-context-global-483 - Shutting down connection pool.
+2017-08-04 19:38:23,259 [INFO] from application in scala-execution-context-global-483 - Creating Pool for datasource 'default'
+2017-08-04 19:38:23,263 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-483 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 19:38:23,434 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-483 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 19:38:23,473 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-483 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-04 19:38:23,473 [INFO] from play.api.Play in scala-execution-context-global-483 - Application started (Dev)
+2017-08-04 19:39:43,640 [INFO] from application in scala-execution-context-global-514 - Shutting down connection pool.
+2017-08-04 19:39:43,734 [INFO] from application in scala-execution-context-global-514 - Creating Pool for datasource 'default'
+2017-08-04 19:39:43,739 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-514 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 19:39:43,921 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-514 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 19:39:43,964 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-514 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-04 19:39:43,965 [INFO] from play.api.Play in scala-execution-context-global-514 - Application started (Dev)
+2017-08-04 19:41:55,472 [INFO] from application in scala-execution-context-global-559 - Shutting down connection pool.
+2017-08-04 19:41:55,574 [INFO] from application in scala-execution-context-global-559 - Creating Pool for datasource 'default'
+2017-08-04 19:41:55,578 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-559 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 19:41:55,776 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-559 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 19:41:55,830 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-559 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-04 19:41:55,831 [INFO] from play.api.Play in scala-execution-context-global-559 - Application started (Dev)
+2017-08-04 19:45:44,718 [INFO] from application in scala-execution-context-global-609 - Shutting down connection pool.
+2017-08-04 19:45:44,812 [INFO] from application in scala-execution-context-global-609 - Creating Pool for datasource 'default'
+2017-08-04 19:45:44,817 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-609 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 19:45:44,988 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-609 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 19:45:45,034 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-609 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-04 19:45:45,034 [INFO] from play.api.Play in scala-execution-context-global-609 - Application started (Dev)
+2017-08-04 19:46:02,359 [INFO] from application in scala-execution-context-global-644 - Shutting down connection pool.
+2017-08-04 19:46:02,472 [INFO] from application in scala-execution-context-global-644 - Creating Pool for datasource 'default'
+2017-08-04 19:46:02,477 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-644 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 19:46:02,634 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-644 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 19:46:02,681 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-644 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-04 19:46:02,681 [INFO] from play.api.Play in scala-execution-context-global-644 - Application started (Dev)
+2017-08-04 19:46:38,395 [INFO] from application in scala-execution-context-global-677 - Shutting down connection pool.
+2017-08-04 19:46:38,521 [INFO] from application in scala-execution-context-global-677 - Creating Pool for datasource 'default'
+2017-08-04 19:46:38,526 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-677 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 19:46:38,672 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-677 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 19:46:38,720 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-677 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-04 19:46:38,721 [INFO] from play.api.Play in scala-execution-context-global-677 - Application started (Dev)
+2017-08-04 19:48:38,732 [INFO] from application in scala-execution-context-global-707 - Shutting down connection pool.
+2017-08-04 19:48:38,890 [INFO] from application in scala-execution-context-global-707 - Creating Pool for datasource 'default'
+2017-08-04 19:48:38,894 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-707 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 19:48:39,065 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-707 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 19:48:39,103 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-707 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-04 19:48:39,104 [INFO] from play.api.Play in scala-execution-context-global-707 - Application started (Dev)
+2017-08-04 19:49:21,481 [INFO] from application in scala-execution-context-global-747 - Shutting down connection pool.
+2017-08-04 19:49:21,567 [INFO] from application in scala-execution-context-global-747 - Creating Pool for datasource 'default'
+2017-08-04 19:49:21,571 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-747 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 19:49:21,718 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-747 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 19:49:21,764 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-747 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-04 19:49:21,765 [INFO] from play.api.Play in scala-execution-context-global-747 - Application started (Dev)
+2017-08-04 19:49:50,841 [INFO] from application in scala-execution-context-global-784 - Shutting down connection pool.
+2017-08-04 19:49:50,939 [INFO] from application in scala-execution-context-global-784 - Creating Pool for datasource 'default'
+2017-08-04 19:49:50,943 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-784 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 19:49:51,114 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-784 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 19:49:51,167 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-784 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-04 19:49:51,168 [INFO] from play.api.Play in scala-execution-context-global-784 - Application started (Dev)
+2017-08-04 19:52:39,859 [INFO] from application in scala-execution-context-global-820 - Shutting down connection pool.
+2017-08-04 19:52:39,968 [INFO] from application in scala-execution-context-global-820 - Creating Pool for datasource 'default'
+2017-08-04 19:52:39,973 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-820 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 19:52:40,145 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-820 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 19:52:40,183 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-820 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-04 19:52:40,184 [INFO] from play.api.Play in scala-execution-context-global-820 - Application started (Dev)
+2017-08-04 19:54:44,389 [INFO] from application in scala-execution-context-global-862 - Shutting down connection pool.
+2017-08-04 19:54:44,497 [INFO] from application in scala-execution-context-global-862 - Creating Pool for datasource 'default'
+2017-08-04 19:54:44,501 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-862 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 19:54:44,685 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-862 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 19:54:44,725 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-862 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-04 19:54:44,725 [INFO] from play.api.Play in scala-execution-context-global-862 - Application started (Dev)
+2017-08-04 19:55:43,892 [INFO] from application in scala-execution-context-global-902 - Shutting down connection pool.
+2017-08-04 19:55:43,994 [INFO] from application in scala-execution-context-global-902 - Creating Pool for datasource 'default'
+2017-08-04 19:55:44,002 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-902 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 19:55:44,174 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-902 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 19:55:44,225 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-902 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-04 19:55:44,225 [INFO] from play.api.Play in scala-execution-context-global-902 - Application started (Dev)
+2017-08-04 19:58:18,250 [INFO] from application in scala-execution-context-global-938 - Shutting down connection pool.
+2017-08-04 19:58:18,356 [INFO] from application in scala-execution-context-global-938 - Creating Pool for datasource 'default'
+2017-08-04 19:58:18,360 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-938 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 19:58:18,524 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-938 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 19:58:18,564 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-938 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-04 19:58:18,564 [INFO] from play.api.Play in scala-execution-context-global-938 - Application started (Dev)
+2017-08-04 19:58:53,214 [INFO] from application in scala-execution-context-global-982 - Shutting down connection pool.
+2017-08-04 19:58:53,333 [INFO] from application in scala-execution-context-global-982 - Creating Pool for datasource 'default'
+2017-08-04 19:58:53,338 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-982 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 19:58:53,462 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-982 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 19:58:53,507 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-982 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-04 19:58:53,507 [INFO] from play.api.Play in scala-execution-context-global-982 - Application started (Dev)
+2017-08-04 19:59:31,184 [INFO] from application in scala-execution-context-global-1022 - Shutting down connection pool.
+2017-08-04 19:59:31,281 [INFO] from application in scala-execution-context-global-1022 - Creating Pool for datasource 'default'
+2017-08-04 19:59:31,285 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-1022 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 19:59:31,474 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-1022 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 19:59:31,523 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-1022 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-04 19:59:31,524 [INFO] from play.api.Play in scala-execution-context-global-1022 - Application started (Dev)
+2017-08-04 20:04:05,412 [INFO] from application in scala-execution-context-global-1063 - Shutting down connection pool.
+2017-08-04 20:04:05,495 [INFO] from application in scala-execution-context-global-1063 - Creating Pool for datasource 'default'
+2017-08-04 20:04:05,500 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-1063 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 20:04:05,682 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-1063 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 20:04:05,721 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-1063 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-04 20:04:05,721 [INFO] from play.api.Play in scala-execution-context-global-1063 - Application started (Dev)
+2017-08-04 20:05:45,801 [INFO] from application in scala-execution-context-global-1108 - Shutting down connection pool.
+2017-08-04 20:05:45,889 [INFO] from application in scala-execution-context-global-1108 - Creating Pool for datasource 'default'
+2017-08-04 20:05:45,894 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-1108 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 20:05:46,036 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-1108 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 20:05:46,084 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-1108 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-04 20:05:46,085 [INFO] from play.api.Play in scala-execution-context-global-1108 - Application started (Dev)
+2017-08-04 20:06:36,065 [INFO] from application in scala-execution-context-global-1151 - Shutting down connection pool.
+2017-08-04 20:06:36,175 [INFO] from application in scala-execution-context-global-1151 - Creating Pool for datasource 'default'
+2017-08-04 20:06:36,179 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-1151 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 20:06:36,302 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-1151 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 20:06:36,338 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-1151 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-04 20:06:36,339 [INFO] from play.api.Play in scala-execution-context-global-1151 - Application started (Dev)
+2017-08-04 20:07:53,079 [INFO] from application in scala-execution-context-global-1186 - Shutting down connection pool.
+2017-08-04 20:07:53,175 [INFO] from application in scala-execution-context-global-1186 - Creating Pool for datasource 'default'
+2017-08-04 20:07:53,180 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-1186 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 20:07:53,336 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-1186 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 20:07:53,371 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-1186 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-04 20:07:53,371 [INFO] from play.api.Play in scala-execution-context-global-1186 - Application started (Dev)
+2017-08-04 20:08:36,753 [INFO] from application in scala-execution-context-global-1227 - Shutting down connection pool.
+2017-08-04 20:08:36,834 [INFO] from application in scala-execution-context-global-1227 - Creating Pool for datasource 'default'
+2017-08-04 20:08:36,838 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-1227 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 20:08:37,005 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-1227 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 20:08:37,042 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-1227 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-04 20:08:37,043 [INFO] from play.api.Play in scala-execution-context-global-1227 - Application started (Dev)
+2017-08-04 20:11:24,451 [INFO] from application in scala-execution-context-global-1270 - Shutting down connection pool.
+2017-08-04 20:11:24,565 [INFO] from application in scala-execution-context-global-1270 - Creating Pool for datasource 'default'
+2017-08-04 20:11:24,569 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-1270 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 20:11:24,815 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-1270 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 20:11:24,864 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-1270 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-04 20:11:24,865 [INFO] from play.api.Play in scala-execution-context-global-1270 - Application started (Dev)
+2017-08-04 20:16:54,434 [INFO] from application in scala-execution-context-global-1334 - Shutting down connection pool.
+2017-08-04 20:16:54,531 [INFO] from application in scala-execution-context-global-1334 - Creating Pool for datasource 'default'
+2017-08-04 20:16:54,536 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-1334 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 20:16:54,799 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-1334 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 20:16:54,845 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-1334 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-04 20:16:54,846 [INFO] from play.api.Play in scala-execution-context-global-1334 - Application started (Dev)
+2017-08-04 20:19:36,234 [INFO] from application in scala-execution-context-global-1371 - Shutting down connection pool.
+2017-08-04 20:19:36,350 [INFO] from application in scala-execution-context-global-1371 - Creating Pool for datasource 'default'
+2017-08-04 20:19:36,354 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-1371 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 20:19:37,898 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-1371 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 20:19:37,968 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-1371 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-04 20:19:37,968 [INFO] from play.api.Play in scala-execution-context-global-1371 - Application started (Dev)
+2017-08-04 20:21:35,601 [INFO] from application in scala-execution-context-global-1413 - Shutting down connection pool.
+2017-08-04 20:21:35,699 [INFO] from application in scala-execution-context-global-1413 - Creating Pool for datasource 'default'
+2017-08-04 20:21:35,703 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-1413 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 20:21:35,959 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-1413 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 20:21:36,007 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-1413 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-04 20:21:36,007 [INFO] from play.api.Play in scala-execution-context-global-1413 - Application started (Dev)
+2017-08-04 20:25:52,931 [INFO] from application in scala-execution-context-global-1463 - Shutting down connection pool.
+2017-08-04 20:25:53,023 [INFO] from application in scala-execution-context-global-1463 - Creating Pool for datasource 'default'
+2017-08-04 20:25:53,028 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-1463 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 20:25:53,285 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-1463 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 20:25:53,330 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-1463 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-04 20:25:53,331 [INFO] from play.api.Play in scala-execution-context-global-1463 - Application started (Dev)
+2017-08-04 20:29:26,768 [INFO] from application in scala-execution-context-global-1519 - Shutting down connection pool.
+2017-08-04 20:29:26,863 [INFO] from application in scala-execution-context-global-1519 - Creating Pool for datasource 'default'
+2017-08-04 20:29:26,867 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-1519 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 20:29:27,586 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-1519 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 20:29:27,634 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-1519 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-04 20:29:27,634 [INFO] from play.api.Play in scala-execution-context-global-1519 - Application started (Dev)
+2017-08-04 20:30:13,145 [INFO] from application in scala-execution-context-global-1561 - Shutting down connection pool.
+2017-08-04 20:30:13,265 [INFO] from application in scala-execution-context-global-1561 - Creating Pool for datasource 'default'
+2017-08-04 20:30:13,269 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-1561 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 20:30:13,477 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-1561 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 20:30:13,526 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-1561 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-04 20:30:13,526 [INFO] from play.api.Play in scala-execution-context-global-1561 - Application started (Dev)
+2017-08-04 20:32:14,630 [INFO] from application in scala-execution-context-global-1596 - Shutting down connection pool.
+2017-08-04 20:32:14,727 [INFO] from application in scala-execution-context-global-1596 - Creating Pool for datasource 'default'
+2017-08-04 20:32:14,731 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-1596 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 20:32:14,962 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-1596 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 20:32:15,011 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-1596 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-04 20:32:15,012 [INFO] from play.api.Play in scala-execution-context-global-1596 - Application started (Dev)
+2017-08-04 20:51:00,130 [INFO] from application in scala-execution-context-global-2024 - Shutting down connection pool.
+2017-08-04 20:51:00,336 [INFO] from application in scala-execution-context-global-2024 - Creating Pool for datasource 'default'
+2017-08-04 20:51:00,341 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-2024 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 20:51:00,593 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-2024 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 20:51:00,639 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-2024 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-04 20:51:00,639 [INFO] from play.api.Play in scala-execution-context-global-2024 - Application started (Dev)
+2017-08-04 20:52:32,847 [INFO] from application in scala-execution-context-global-2071 - Shutting down connection pool.
+2017-08-04 20:52:32,942 [INFO] from application in scala-execution-context-global-2071 - Creating Pool for datasource 'default'
+2017-08-04 20:52:32,947 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-2071 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 20:52:33,102 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-2071 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 20:52:33,156 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-2071 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-04 20:52:33,156 [INFO] from play.api.Play in scala-execution-context-global-2071 - Application started (Dev)
+2017-08-04 21:10:16,143 [INFO] from application in scala-execution-context-global-2224 - Shutting down connection pool.
+2017-08-04 21:10:16,254 [INFO] from application in scala-execution-context-global-2224 - Creating Pool for datasource 'default'
+2017-08-04 21:10:16,258 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-2224 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 21:10:16,403 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-2224 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 21:10:16,452 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-2224 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-04 21:10:16,455 [INFO] from play.api.Play in scala-execution-context-global-2224 - Application started (Dev)
+2017-08-04 21:26:18,817 [INFO] from application in scala-execution-context-global-2338 - Shutting down connection pool.
+2017-08-04 21:26:18,920 [INFO] from application in scala-execution-context-global-2338 - Creating Pool for datasource 'default'
+2017-08-04 21:26:18,925 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-2338 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 21:26:19,188 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-2338 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 21:26:19,237 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-2338 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-04 21:26:19,258 [INFO] from play.api.Play in scala-execution-context-global-2338 - Application started (Dev)
+2017-08-04 21:28:55,160 [INFO] from application in scala-execution-context-global-2384 - Shutting down connection pool.
+2017-08-04 21:28:55,243 [INFO] from application in scala-execution-context-global-2384 - Creating Pool for datasource 'default'
+2017-08-04 21:28:55,247 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-2384 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 21:28:55,393 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-2384 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 21:28:55,429 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-2384 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-04 21:28:55,430 [INFO] from play.api.Play in scala-execution-context-global-2384 - Application started (Dev)
+2017-08-04 21:29:46,400 [INFO] from application in scala-execution-context-global-2423 - Shutting down connection pool.
+2017-08-04 21:29:46,501 [INFO] from application in scala-execution-context-global-2423 - Creating Pool for datasource 'default'
+2017-08-04 21:29:46,505 [INFO] from play.api.db.DefaultDBApi in scala-execution-context-global-2423 - Database [default] connected at jdbc:mysql://localhost/teste
+2017-08-04 21:29:46,670 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in scala-execution-context-global-2423 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2017-08-04 21:29:46,708 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-2423 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+
+2017-08-04 21:29:46,709 [INFO] from play.api.Play in scala-execution-context-global-2423 - Application started (Dev)

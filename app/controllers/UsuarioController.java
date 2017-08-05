@@ -82,7 +82,6 @@ public class UsuarioController extends Controller {
 
             if (usuario.isVerificado() && BCrypt.checkpw(senha, usuario.getSenha())) {
                 insereUsuarioNaSessao(usuario);
-                flash("success", "Login foi efetuado com sucesso!");
                 return redirect(routes.UsuarioController.painel());
             } else {
                 flash("warning", "Usuário ainda não confirmado! Verifique seu e-mail!");
@@ -90,7 +89,7 @@ public class UsuarioController extends Controller {
         } else {
             flash("danger", "Credenciais inválidas!");
         }
-        return redirect(routes.UsuarioController.formularioDeLogin());
+        return redirect(routes.HomeController.home());
     }
 
     public Result confirmaUsuario(String email, String codigo) {
