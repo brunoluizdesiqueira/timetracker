@@ -26,8 +26,8 @@ public class Usuario extends BaseModel {
     private Status status = Status.ATIVO;
 
     private boolean verificado;
-    @Required(message = "Você precisa fornecer a data de cadastro!")
 
+    @Required(message = "Você precisa fornecer a data de cadastro!")
     private LocalDate dataCadastro = LocalDate.now();
 
     private String AvatarURL;

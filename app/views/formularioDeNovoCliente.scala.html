@@ -2,9 +2,25 @@
 @import b4.vertical.fieldConstructor;
 
 @main("Cadastro de cliente!") {
-    @b4.form(routes.ClienteController.salvaNovoCliente) {
-        <h1>Cadastre um novo cliente</h1>
-        @b4.text(formulario("nome"), '_label -> "Nome")
-        @b4.submit('class -> "btn btn-primary") { Cadastrar }
-    }
+    <main role="main">
+        <div class="mediahawkz-login">
+            <div class="div-center">
+                <div class="rkmd-form login">
+                    @b4.form(routes.ClienteController.salvaNovoCliente) {
+                        <h2 class="form-title">Cadastre um novo cliente</h2>
+
+                        <div class="form-field">
+                            <label class="field-label" for="nomeid">Nome do cliente</label>
+                            <input id="nome" type="text" required name="nome" class="field-input" autocomplete="false">
+                            <i class="material-icons md-18">error_outline</i>
+                        </div>
+
+                        <div class="form-row clearfix">
+                            <button id="submit" class="rkmd-btn btn-lightBlue ripple-effect float-right">Cadastrar</button>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </main>
 } 

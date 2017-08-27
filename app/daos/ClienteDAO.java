@@ -2,6 +2,7 @@ package daos;
 
 import io.ebean.Ebean;
 import io.ebean.EbeanServer;
+import io.ebean.PagedList;
 import models.Cliente;
 import play.db.ebean.EbeanConfig;
 import repository.DatabaseExecutionContext;
@@ -50,5 +51,25 @@ public class ClienteDAO {
                     }
                     return options;
                 });
+    }
+
+    /**
+     * Return a paged list of cliente
+     *
+     * @param page     Page to display
+     * @param pageSize Number of clientes per page
+     * @param sortBy   Cliente property used for sorting
+     * @param order    Sort order (either or asc or desc)
+     * @param filter   Filter applied on the nome column
+     */
+    public CompletionStage<PagedList<Cliente>> page(int page, int pageSize, String sortBy, String order, String filter) {
+        return supplyAsync(() -> {
+            return ebeanServer.find(Cliente.class).where()
+                    .ilike("nome", "%" + filter + "%")
+                    .orderBy(sortBy + " " + order)
+                    .setFirstRow(page * pageSize)
+                    .setMaxRows(pageSize)
+                    .findPagedList();
+        }, executionContext);
     }
 }

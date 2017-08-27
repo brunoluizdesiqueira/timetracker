@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/Bruno/projetos/timetracker/conf/routes
-// @DATE:Wed Aug 02 20:20:46 BRT 2017
+// @DATE:Fri Aug 11 21:04:12 BRT 2017
 
 import play.api.routing.JavaScriptReverseRoute
 
@@ -12,7 +12,7 @@ import _root_.play.libs.F
 // @LINE:5
 package controllers.javascript {
 
-  // @LINE:49
+  // @LINE:50
   class ReverseAssets(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -20,7 +20,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:49
+    // @LINE:50
     def at: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Assets.at",
       """
@@ -32,7 +32,7 @@ package controllers.javascript {
   
   }
 
-  // @LINE:18
+  // @LINE:19
   class ReverseProjetoController(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -40,7 +40,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:18
+    // @LINE:19
     def formularioDeNovoProjeto: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.ProjetoController.formularioDeNovoProjeto",
       """
@@ -50,7 +50,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:19
+    // @LINE:20
     def modalDeNovoProjeto: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.ProjetoController.modalDeNovoProjeto",
       """
@@ -60,7 +60,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:20
+    // @LINE:21
     def salvaNovoProjeto: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.ProjetoController.salvaNovoProjeto",
       """
@@ -72,7 +72,7 @@ package controllers.javascript {
   
   }
 
-  // @LINE:25
+  // @LINE:26
   class ReverseTipoTarefaController(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -80,7 +80,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:25
+    // @LINE:26
     def formularioDeNovoTipoTarefa: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.TipoTarefaController.formularioDeNovoTipoTarefa",
       """
@@ -90,7 +90,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:26
+    // @LINE:27
     def salvaNovoTipoTarefa: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.TipoTarefaController.salvaNovoTipoTarefa",
       """
@@ -102,7 +102,7 @@ package controllers.javascript {
   
   }
 
-  // @LINE:22
+  // @LINE:23
   class ReverseTarefaController(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -110,7 +110,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:23
+    // @LINE:24
     def salvaNovaTarefa: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.TarefaController.salvaNovaTarefa",
       """
@@ -120,7 +120,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:22
+    // @LINE:23
     def formularioDeNovaTarefa: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.TarefaController.formularioDeNovaTarefa",
       """
@@ -132,7 +132,7 @@ package controllers.javascript {
   
   }
 
-  // @LINE:30
+  // @LINE:31
   class ReverseHomeController(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -140,7 +140,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:46
+    // @LINE:47
     def delete: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.HomeController.delete",
       """
@@ -150,7 +150,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:38
+    // @LINE:39
     def create: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.HomeController.create",
       """
@@ -160,7 +160,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:42
+    // @LINE:43
     def edit: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.HomeController.edit",
       """
@@ -170,7 +170,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:43
+    // @LINE:44
     def update: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.HomeController.update",
       """
@@ -180,7 +180,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:35
+    // @LINE:36
     def list: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.HomeController.list",
       """
@@ -190,7 +190,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:39
+    // @LINE:40
     def save: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.HomeController.save",
       """
@@ -200,7 +200,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:32
+    // @LINE:33
     def home: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.HomeController.home",
       """
@@ -210,7 +210,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:30
+    // @LINE:31
     def index: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.HomeController.index",
       """
@@ -236,6 +236,16 @@ package controllers.javascript {
       """
         function() {
           return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "cliente/novo"})
+        }
+      """
+    )
+  
+    // @LINE:17
+    def list: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.ClienteController.list",
+      """
+        function(p0,s1,o2,f3) {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "clientes" + _qS([(p0 == null ? null : (""" + implicitly[play.api.mvc.QueryStringBindable[Int]].javascriptUnbind + """)("p", p0)), (s1 == null ? null : (""" + implicitly[play.api.mvc.QueryStringBindable[String]].javascriptUnbind + """)("s", s1)), (o2 == null ? null : (""" + implicitly[play.api.mvc.QueryStringBindable[String]].javascriptUnbind + """)("o", o2)), (f3 == null ? null : (""" + implicitly[play.api.mvc.QueryStringBindable[String]].javascriptUnbind + """)("f", f3))])})
         }
       """
     )

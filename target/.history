@@ -107,3 +107,4 @@ clean
 update
 compile
 run
+~run

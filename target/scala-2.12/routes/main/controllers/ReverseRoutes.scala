@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/Bruno/projetos/timetracker/conf/routes
-// @DATE:Wed Aug 02 20:20:46 BRT 2017
+// @DATE:Fri Aug 11 21:04:12 BRT 2017
 
 import play.api.mvc.Call
 
@@ -12,14 +12,14 @@ import _root_.play.libs.F
 // @LINE:5
 package controllers {
 
-  // @LINE:49
+  // @LINE:50
   class ReverseAssets(_prefix: => String) {
     def _defaultPrefix: String = {
       if (_prefix.endsWith("/")) "" else "/"
     }
 
   
-    // @LINE:49
+    // @LINE:50
     def at(file:String): Call = {
       implicit val _rrc = new play.core.routing.ReverseRouteContext(Map(("path", "/public")))
       Call("GET", _prefix + { _defaultPrefix } + "assets/" + implicitly[play.api.mvc.PathBindable[String]].unbind("file", file))
@@ -27,26 +27,26 @@ package controllers {
   
   }
 
-  // @LINE:18
+  // @LINE:19
   class ReverseProjetoController(_prefix: => String) {
     def _defaultPrefix: String = {
       if (_prefix.endsWith("/")) "" else "/"
     }
 
   
-    // @LINE:18
+    // @LINE:19
     def formularioDeNovoProjeto(): Call = {
       
       Call("GET", _prefix + { _defaultPrefix } + "projeto/novo")
     }
   
-    // @LINE:19
+    // @LINE:20
     def modalDeNovoProjeto(): Call = {
       
       Call("GET", _prefix + { _defaultPrefix } + "projeto/novo")
     }
   
-    // @LINE:20
+    // @LINE:21
     def salvaNovoProjeto(): Call = {
       
       Call("POST", _prefix + { _defaultPrefix } + "projeto/novo")
@@ -54,20 +54,20 @@ package controllers {
   
   }
 
-  // @LINE:25
+  // @LINE:26
   class ReverseTipoTarefaController(_prefix: => String) {
     def _defaultPrefix: String = {
       if (_prefix.endsWith("/")) "" else "/"
     }
 
   
-    // @LINE:25
+    // @LINE:26
     def formularioDeNovoTipoTarefa(): Call = {
       
       Call("GET", _prefix + { _defaultPrefix } + "tipotarefa/novo")
     }
   
-    // @LINE:26
+    // @LINE:27
     def salvaNovoTipoTarefa(): Call = {
       
       Call("POST", _prefix + { _defaultPrefix } + "tipotarefa/novo")
@@ -75,20 +75,20 @@ package controllers {
   
   }
 
-  // @LINE:22
+  // @LINE:23
   class ReverseTarefaController(_prefix: => String) {
     def _defaultPrefix: String = {
       if (_prefix.endsWith("/")) "" else "/"
     }
 
   
-    // @LINE:23
+    // @LINE:24
     def salvaNovaTarefa(): Call = {
       
       Call("POST", _prefix + { _defaultPrefix } + "tarefa/novo")
     }
   
-    // @LINE:22
+    // @LINE:23
     def formularioDeNovaTarefa(): Call = {
       
       Call("GET", _prefix + { _defaultPrefix } + "tarefa/novo")
@@ -96,56 +96,56 @@ package controllers {
   
   }
 
-  // @LINE:30
+  // @LINE:31
   class ReverseHomeController(_prefix: => String) {
     def _defaultPrefix: String = {
       if (_prefix.endsWith("/")) "" else "/"
     }
 
   
-    // @LINE:46
+    // @LINE:47
     def delete(id:Long): Call = {
       
       Call("POST", _prefix + { _defaultPrefix } + "computers/" + implicitly[play.api.mvc.PathBindable[Long]].unbind("id", id) + "/delete")
     }
   
-    // @LINE:38
+    // @LINE:39
     def create(): Call = {
       
       Call("GET", _prefix + { _defaultPrefix } + "computers/new")
     }
   
-    // @LINE:42
+    // @LINE:43
     def edit(id:Long): Call = {
       
       Call("GET", _prefix + { _defaultPrefix } + "computers/" + implicitly[play.api.mvc.PathBindable[Long]].unbind("id", id))
     }
   
-    // @LINE:43
+    // @LINE:44
     def update(id:Long): Call = {
       
       Call("POST", _prefix + { _defaultPrefix } + "computers/" + implicitly[play.api.mvc.PathBindable[Long]].unbind("id", id))
     }
   
-    // @LINE:35
+    // @LINE:36
     def list(p:Int = 0, s:String = "name", o:String = "asc", f:String = ""): Call = {
       
       Call("GET", _prefix + { _defaultPrefix } + "computers" + play.core.routing.queryString(List(if(p == 0) None else Some(implicitly[play.api.mvc.QueryStringBindable[Int]].unbind("p", p)), if(s == "name") None else Some(implicitly[play.api.mvc.QueryStringBindable[String]].unbind("s", s)), if(o == "asc") None else Some(implicitly[play.api.mvc.QueryStringBindable[String]].unbind("o", o)), if(f == "") None else Some(implicitly[play.api.mvc.QueryStringBindable[String]].unbind("f", f)))))
     }
   
-    // @LINE:39
+    // @LINE:40
     def save(): Call = {
       
       Call("POST", _prefix + { _defaultPrefix } + "computers")
     }
   
-    // @LINE:32
+    // @LINE:33
     def home(): Call = {
       
       Call("GET", _prefix + { _defaultPrefix } + "home")
     }
   
-    // @LINE:30
+    // @LINE:31
     def index(): Call = {
       
       Call("GET", _prefix)
@@ -164,6 +164,12 @@ package controllers {
     def salvaNovoCliente(): Call = {
       
       Call("POST", _prefix + { _defaultPrefix } + "cliente/novo")
+    }
+  
+    // @LINE:17
+    def list(p:Int = 0, s:String = "nome", o:String = "asc", f:String = ""): Call = {
+      
+      Call("GET", _prefix + { _defaultPrefix } + "clientes" + play.core.routing.queryString(List(if(p == 0) None else Some(implicitly[play.api.mvc.QueryStringBindable[Int]].unbind("p", p)), if(s == "nome") None else Some(implicitly[play.api.mvc.QueryStringBindable[String]].unbind("s", s)), if(o == "asc") None else Some(implicitly[play.api.mvc.QueryStringBindable[String]].unbind("o", o)), if(f == "") None else Some(implicitly[play.api.mvc.QueryStringBindable[String]].unbind("f", f)))))
     }
   
     // @LINE:15

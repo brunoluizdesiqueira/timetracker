@@ -14,6 +14,7 @@ GET         /logout                                 controllers.UsuarioControlle
 
 GET         /cliente/novo                           controllers.ClienteController.formularioDeNovoCliente
 POST        /cliente/novo                           controllers.ClienteController.salvaNovoCliente
+GET         /clientes                               controllers.ClienteController.list(p:Int ?= 0, s ?= "nome", o ?= "asc", f ?= "")
         
 GET         /projeto/novo                           controllers.ProjetoController.formularioDeNovoProjeto
 GET         /projeto/novo                           controllers.ProjetoController.modalDeNovoProjeto

@@ -8,7 +8,6 @@ import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 import javax.persistence.OneToMany;
 import java.time.LocalDate;
-import java.util.ArrayList;
 import java.util.List;
 
 @Entity
@@ -17,6 +16,7 @@ public class Cliente extends BaseModel {
     @Required(message = "Você precisa fornecer um nome!")
     private String nome;
 
+    @Required(message = "Você precisa fornecer a data de cadastro!")
     private LocalDate dataCadastro = LocalDate.now();
 
     @Enumerated(EnumType.STRING)
@@ -24,13 +24,6 @@ public class Cliente extends BaseModel {
 
     @OneToMany(mappedBy = "cliente")
     private List<Projeto> projetos;
-
-    public Cliente(Projeto projeto) {
-        this.dataCadastro = LocalDate.now();
-        this.status = Status.ATIVO;
-        this.projetos = new ArrayList<Projeto>();
-        this.setProjeto(projeto);
-    }
 
     public String getNome() {
         return nome;
@@ -66,6 +59,14 @@ public class Cliente extends BaseModel {
 
     public void setDataCadastro(LocalDate dataCadastro) {
         this.dataCadastro = dataCadastro;
+    }
+
+    public Status getStatus() {
+        return status;
+    }
+
+    public void setStatus(Status status) {
+        this.status = status;
     }
 
 }
